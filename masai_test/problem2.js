@@ -44,7 +44,7 @@ function gettopper(){
         let avg = getAverage(A[i].scores)
         if (avg>topavg){
             topavg = avg
-            topName = students[i].name
+            topName = A[i].name
         }
     }
     return {name : topName ,average: topavg}
